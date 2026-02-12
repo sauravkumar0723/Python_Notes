@@ -1,0 +1,29 @@
+### Introduction of Python
+- Python is a high-level, interpreted, and object-oriented programming language known for its simplicity and readability. 
+- It is widely used in web development, data science, artificial intelligence, automation, and software development.
+- Created by Guido van Rossum in 1991.
+
+  Key Features of Python
+- Interpreted Language
+- Dynamically Typed
+- Object-Oriented
+- Extensive Standard Library
+- Open Source
+- Portable
+
+# Hello World Program
+print("Hello, World!")
+
+     Summary of Python Code Execution Flow
+1. Source Code: You write Python code in a .py file.
+2. Python Interpreter: The interpreter reads your code and starts executing it.
+3. Bytecode Compilation: The interpreter changes your Python code into bytecode (.pyc files).
+4. PVM Execution: The Python Virtual Machine (PVM) takes the bytecode and changes it into machine code.
+5. Machine Code: The CPU processes the machine code and performs the actions.
+6. Output: The result of your program is displayed, such as printed text or calculations.
+Additional Notes: JIT Compilers and Optimizations
+
+What is the PVM?
+
+- Think of the PVM as a translator that takes the bytecode and turns it into actions that your computer can understand. 
+- The bytecode is platform-independent, which means it can run on any computer with Python installed. The PVM makes sure the bytecode gets turned into the right commands for your specific computer.

@@ -1,0 +1,14 @@
+ What is a Variable?
+- A variable in Python is a name used to store data in memory.
+- It acts as a container that holds a value which can be used and modified later in the program.
+
+- Python is dynamically typed, which means you do not need to declare the data type of a variable explicitly.
+
+ Syntax
+- variable_name = value
+
+Example:
+age = 21
+name = "Saurav"
+cgpa = 8.5
+is_student = True

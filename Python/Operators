@@ -1,0 +1,128 @@
+### Operators
+- Operators are special symbols used to perform operations on variables and values.
+  Example:
+
+a = 10
+b = 5
+print(a + b)   # Output: 15
+🔹 Types of Operators in Python
+1. Arithmetic Operators
+
+Used to perform mathematical operations.
+| Operator | Description    | Example  |
+| -------- | -------------- | -------- |
+| `+`      | Addition       | `a + b`  |
+| `-`      | Subtraction    | `a - b`  |
+| `*`      | Multiplication | `a * b`  |
+| `/`      | Division       | `a / b`  |
+| `//`     | Floor Division | `a // b` |
+| `%`      | Modulus        | `a % b`  |
+| `**`     | Exponent       | `a ** b` |
+
+Example:
+a = 10
+b = 3
+
+print(a + b)   # 13
+print(a // b)  # 3
+print(a % b)   # 1
+print(a ** b)  # 1000
+
+2️ Comparison (Relational) Operators
+
+Used to compare values. Returns True or False.
+| Operator | Meaning               |
+| -------- | --------------------- |
+| `==`     | Equal to              |
+| `!=`     | Not equal to          |
+| `>`      | Greater than          |
+| `<`      | Less than             |
+| `>=`     | Greater than or equal |
+| `<=`     | Less than or equal    |
+
+x = 10
+y = 20
+print(x > y)   # False
+print(x != y)  # True
+
+3. Logical Operators
+Used to combine conditional statements.
+| Operator | Meaning                      |
+| -------- | ---------------------------- |
+| `and`    | Both conditions must be True |
+| `or`     | At least one True            |
+| `not`    | Reverse the result           |
+
+a = 10
+print(a > 5 and a < 20)  # True
+print(not(a > 5))        # False
+
+4. Assignment Operators
+- Used to assign values.
+Operator
+| Operator | Example  |
+| -------- | -------- |
+| `=`      | `x = 5`  |
+| `+=`     | `x += 3` |
+| `-=`     | `x -= 2` |
+| `*=`     | `x *= 2` |
+| `/=`     | `x /= 2` |
+
+
+5. Membership Operators
+- Used to check if a value exists in a sequence.
+| Operator | Meaning     |
+| -------- | ----------- |
+| `in`     | Present     |
+| `not in` | Not present |
+
+name = "Python"
+print("P" in name)  # True
+
+6.  Identity Operators
+Used to compare memory location.
+
+| Operator | Meaning          |
+| -------- | ---------------- |
+| `is`     | Same object      |
+| `is not` | Different object |
+
+
+Example:
+
+a = [1,2,3]
+b = a
+print(a is b)  # True
+
+7. Bitwise Operators?
+Bitwise operators perform operations on numbers at the binary (bit) level.
+
+| Operator | Name        | Description                         |                                        |
+| -------- | ----------- | ----------------------------------- | -------------------------------------- |
+| `&`      | AND         | Sets bit to 1 if both bits are 1    |                                        |
+| `        | `           | OR                                  | Sets bit to 1 if at least one bit is 1 |
+| `^`      | XOR         | Sets bit to 1 if bits are different |                                        |
+| `~`      | NOT         | Inverts all bits                    |                                        |
+| `<<`     | Left Shift  | Shifts bits to the left             |                                        |
+| `>>`     | Right Shift | Shifts bits to the right            |                                        |
+
+
+Left Shift (<<)
+print(5 << 1)
+Binary:
+5  = 0101
+<<1 = 1010
+Output:
+10
+Left shift multiplies by 2.
+
+6️⃣ Right Shift (>>)
+print(8 >> 1)
+
+Binary:
+8  = 1000
+>>1 = 0100
+Output:
+4
+
+
